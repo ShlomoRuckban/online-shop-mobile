@@ -1,0 +1,2 @@
+# git hooks run under sh: keep LF line endings
+.githooks/* text eol=lf

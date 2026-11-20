@@ -1,0 +1,125 @@
+{
+  "app": {
+    "name": "Online Shop",
+    "pageTitle": "{title} | Online Shop",
+    "loadingPage": "Loading page",
+    "skipToContent": "Skip to main content",
+    "description": "Everyday essentials, gadgets and gifts at fair prices, delivered to your door. Shop in English, Hebrew or Spanish."
+  },
+  "common": {
+    "retry": "Retry",
+    "backToHome": "Back to home",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "yes": "Yes",
+    "no": "No",
+    "loadError": "Something went wrong while loading.",
+    "genericError": "Something went wrong. Please try again.",
+    "unreachable": "Can't reach the server. Check your connection and try again.",
+    "itemCount": {
+      "one": "{count} item",
+      "other": "{count} items"
+    },
+    "startShopping": "Start shopping",
+    "continueShopping": "Continue shopping",
+    "rated": "Rated {rating} out of 5",
+    "outOfStock": "Out of stock",
+    "loadingItems": "Loading items",
+    "language": "Language"
+  },
+  "prefs": {
+    "button": "Language and theme",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "Match browser"
+  },
+  "blocked": {
+    "message": "This account is blocked.",
+    "reason": "Reason: {reason}.",
+    "until": "The block ends on {date}."
+  },
+  "apiErrors": {
+    "INVALID_ORDER": "Choose one of your own orders",
+    "THREAD_LOCKED": "This thread is locked",
+    "CANNOT_REPORT_OWN": "You cannot report your own post",
+    "ALREADY_REPORTED": "You already reported this post",
+    "ACCOUNT_BLOCKED": "This account is blocked.",
+    "CANNOT_BLOCK_SELF": "You cannot block your own account",
+    "CANNOT_BLOCK_ADMIN": "Change the role of an admin before blocking them",
+    "WRONG_PASSWORD": "Current password is incorrect",
+    "SAME_PASSWORD": "Choose a password different from the current one",
+    "PASSWORD_CHANGE_REQUIRED": "Choose a new password to continue",
+    "TWO_FACTOR_REQUIRED": "Enter the code from your authenticator app",
+    "INVALID_TWO_FACTOR_CODE": "The code is not correct",
+    "TWO_FACTOR_SETUP_REQUIRED": "Turn on two-factor login to use staff pages",
+    "TWO_FACTOR_REQUIRED_FOR_ROLE": "Two-factor login is required for your role",
+    "TWO_FACTOR_ON": "Two-factor login is already on",
+    "TWO_FACTOR_OFF": "Two-factor login is off",
+    "NO_SETUP": "Start the setup again",
+    "CANNOT_RESET_OWN_2FA": "Change your own two-factor login in your settings",
+    "CANNOT_RESET_OWN_PASSWORD": "Change your own password in your settings",
+    "INVALID_CREDENTIALS": "Email or password is incorrect",
+    "EMAIL_TAKEN": "An account with this email already exists",
+    "UNAUTHENTICATED": "Please log in",
+    "FORBIDDEN": "You do not have access to this resource",
+    "NOT_FOUND": "Not found",
+    "OUT_OF_STOCK": "Some items do not have enough stock",
+    "ITEM_UNAVAILABLE": "An item in your cart is no longer available",
+    "CANNOT_CHANGE_OWN_ROLE": "You cannot change your own role",
+    "INVALID_STATUS": "The order was changed by someone else, reload and try again",
+    "VALIDATION_ERROR": "Some of the details are not valid",
+    "TOO_MANY_REQUESTS": "Too many attempts. Please wait a moment and try again.",
+    "EMAIL_NOT_VERIFIED": "Confirm your email address first",
+    "INVALID_TOKEN": "This link is invalid or has expired",
+    "ALREADY_VERIFIED": "Your email address is already confirmed",
+    "TOO_SOON": "Wait a minute before asking for another mail",
+    "PAYMENT_DECLINED": "The payment was declined",
+    "PAYMENT_EXPIRED": "The time to pay for this order has run out",
+    "NOT_PAYABLE": "This order is not waiting for payment",
+    "CANNOT_CANCEL": "This order can no longer be cancelled",
+    "ORDERS_IN_PROGRESS": "You have orders that are not delivered yet. Wait for them or cancel them first.",
+    "LAST_ADMIN": "You are the only admin. Make someone else an admin before deleting your account.",
+    "NOT_A_BUYER": "Only customers who bought this item can review it",
+    "ALREADY_REVIEWED": "You already reviewed this item; edit your review instead",
+    "WISHLIST_FULL": "Your wishlist is full; remove some items first",
+    "LIST_NOT_FOUND": "This list is no longer shared",
+    "COUPON_EXISTS": "A coupon with this code already exists"
+  },
+  "nav": {
+    "forum": "Forum",
+    "guides": "Guides",
+    "home": "Home",
+    "shop": "Shop",
+    "info": "Info",
+    "main": "Main",
+    "mobile": "Mobile",
+    "footer": "Footer",
+    "openMenu": "Open menu",
+    "cart": "Cart",
+    "cartWithCount": {
+      "one": "Cart, {count} item",
+      "other": "Cart, {count} items"
+    }
+  },
+  "account": {
+    "support": "Support",
+    "supportWithCount": {
+      "one": "Support, {count} new reply",
+      "other": "Support, {count} new replies"
+    },
+    "login": "Log in",
+    "logout": "Log out",
+    "myOrders": "My orders",
+    "admin": "Admin dashboard",
+    "settings": "Settings",
+    "menuFor": "Account menu for {name}",
+    "wishlist": "Wishlist",
+    "wishlistWithCount": {
+      "one": "Wishlist, {count} item",
+      "other": "Wishlist, {count} items"
+    }
+  }
+}

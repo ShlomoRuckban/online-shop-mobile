@@ -1,0 +1,5 @@
+#!/bin/sh
+# Runs the full check before every push. Skip once with: git push --no-verify
+# Installed by `yarn install` (prepare script sets core.hooksPath to .githooks).
+echo "pre-push: running yarn verify (skip once with --no-verify)"
+yarn verify || { echo "pre-push: verify failed, push stopped"; exit 1; }

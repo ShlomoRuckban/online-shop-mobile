@@ -1,0 +1,125 @@
+{
+  "app": {
+    "name": "Online Shop",
+    "pageTitle": "{title} | Online Shop",
+    "loadingPage": "Cargando la página",
+    "skipToContent": "Saltar al contenido principal",
+    "description": "Artículos para el día a día, gadgets y regalos a precios justos, hasta tu puerta. Compra en inglés, hebreo o español."
+  },
+  "common": {
+    "retry": "Reintentar",
+    "backToHome": "Volver al inicio",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "yes": "Sí",
+    "no": "No",
+    "loadError": "Algo salió mal al cargar.",
+    "genericError": "Algo salió mal. Inténtalo de nuevo.",
+    "unreachable": "No se puede conectar con el servidor. Comprueba tu conexión e inténtalo de nuevo.",
+    "itemCount": {
+      "one": "{count} artículo",
+      "other": "{count} artículos"
+    },
+    "startShopping": "Empezar a comprar",
+    "continueShopping": "Seguir comprando",
+    "rated": "Valoración: {rating} de 5",
+    "outOfStock": "Agotado",
+    "loadingItems": "Cargando artículos",
+    "language": "Idioma"
+  },
+  "prefs": {
+    "button": "Idioma y tema",
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Según el navegador"
+  },
+  "blocked": {
+    "message": "Esta cuenta está bloqueada.",
+    "reason": "Motivo: {reason}.",
+    "until": "El bloqueo termina el {date}."
+  },
+  "apiErrors": {
+    "INVALID_ORDER": "Elige uno de tus propios pedidos",
+    "THREAD_LOCKED": "Este hilo está cerrado",
+    "CANNOT_REPORT_OWN": "No puedes denunciar tu propio mensaje",
+    "ALREADY_REPORTED": "Ya denunciaste este mensaje",
+    "ACCOUNT_BLOCKED": "Esta cuenta está bloqueada.",
+    "CANNOT_BLOCK_SELF": "No puedes bloquear tu propia cuenta",
+    "CANNOT_BLOCK_ADMIN": "Cambia el rol de un administrador antes de bloquearlo",
+    "WRONG_PASSWORD": "La contraseña actual no es correcta",
+    "SAME_PASSWORD": "Elige una contraseña distinta de la actual",
+    "PASSWORD_CHANGE_REQUIRED": "Elige una contraseña nueva para continuar",
+    "TWO_FACTOR_REQUIRED": "Introduce el código de tu app de autenticación",
+    "INVALID_TWO_FACTOR_CODE": "El código no es correcto",
+    "TWO_FACTOR_SETUP_REQUIRED": "Activa el inicio de sesión en dos pasos para usar las páginas del equipo",
+    "TWO_FACTOR_REQUIRED_FOR_ROLE": "El inicio de sesión en dos pasos es obligatorio para tu rol",
+    "TWO_FACTOR_ON": "El inicio de sesión en dos pasos ya está activado",
+    "TWO_FACTOR_OFF": "El inicio de sesión en dos pasos está desactivado",
+    "NO_SETUP": "Vuelve a empezar la configuración",
+    "CANNOT_RESET_OWN_2FA": "Cambia tu propio inicio de sesión en dos pasos en tus ajustes",
+    "CANNOT_RESET_OWN_PASSWORD": "Cambia tu propia contraseña en los ajustes",
+    "INVALID_CREDENTIALS": "El correo o la contraseña no son correctos",
+    "EMAIL_TAKEN": "Ya existe una cuenta con este correo",
+    "UNAUTHENTICATED": "Inicia sesión",
+    "FORBIDDEN": "No tienes acceso a este recurso",
+    "NOT_FOUND": "No encontrado",
+    "OUT_OF_STOCK": "Algunos artículos no tienen suficiente stock",
+    "ITEM_UNAVAILABLE": "Un artículo de tu carrito ya no está disponible",
+    "CANNOT_CHANGE_OWN_ROLE": "No puedes cambiar tu propio rol",
+    "INVALID_STATUS": "Otra persona cambió el pedido; recarga e inténtalo de nuevo",
+    "VALIDATION_ERROR": "Algunos datos no son válidos",
+    "TOO_MANY_REQUESTS": "Demasiados intentos. Espera un momento e inténtalo de nuevo.",
+    "EMAIL_NOT_VERIFIED": "Primero confirma tu correo electrónico",
+    "INVALID_TOKEN": "Este enlace no es válido o ha caducado",
+    "ALREADY_VERIFIED": "Tu correo electrónico ya está confirmado",
+    "TOO_SOON": "Espera un minuto antes de pedir otro correo",
+    "PAYMENT_DECLINED": "El pago fue rechazado",
+    "PAYMENT_EXPIRED": "Se acabó el tiempo para pagar este pedido",
+    "NOT_PAYABLE": "Este pedido no está esperando el pago",
+    "CANNOT_CANCEL": "Este pedido ya no se puede cancelar",
+    "ORDERS_IN_PROGRESS": "Tienes pedidos que aún no se han entregado. Espera a que lleguen o cancélalos primero.",
+    "LAST_ADMIN": "Eres el único administrador. Nombra a otro administrador antes de eliminar tu cuenta.",
+    "NOT_A_BUYER": "Solo los clientes que compraron este artículo pueden opinar sobre él",
+    "ALREADY_REVIEWED": "Ya opinaste sobre este artículo; edita tu opinión",
+    "WISHLIST_FULL": "Tu lista de deseos está llena; quita algunos artículos primero",
+    "LIST_NOT_FOUND": "Esta lista ya no se comparte",
+    "COUPON_EXISTS": "Ya existe un cupón con este código"
+  },
+  "nav": {
+    "forum": "Foro",
+    "guides": "Guías",
+    "home": "Inicio",
+    "shop": "Tienda",
+    "info": "Información",
+    "main": "Principal",
+    "mobile": "Menú móvil",
+    "footer": "Pie de página",
+    "openMenu": "Abrir menú",
+    "cart": "Carrito",
+    "cartWithCount": {
+      "one": "Carrito, {count} artículo",
+      "other": "Carrito, {count} artículos"
+    }
+  },
+  "account": {
+    "support": "Soporte",
+    "supportWithCount": {
+      "one": "Soporte, {count} respuesta nueva",
+      "other": "Soporte, {count} respuestas nuevas"
+    },
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "myOrders": "Mis pedidos",
+    "admin": "Panel de administración",
+    "settings": "Ajustes",
+    "menuFor": "Menú de la cuenta de {name}",
+    "wishlist": "Lista de deseos",
+    "wishlistWithCount": {
+      "one": "Lista de deseos, {count} artículo",
+      "other": "Lista de deseos, {count} artículos"
+    }
+  }
+}

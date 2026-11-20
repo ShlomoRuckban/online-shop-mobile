@@ -1,0 +1,17 @@
+import type { ReactNode } from 'react'
+import { ScrollView, StyleSheet } from 'react-native'
+import { useTheme } from 'react-native-paper'
+
+/** A scrolling page body with the theme background and standard padding. */
+export function Screen({ children }: { children: ReactNode }) {
+  const theme = useTheme()
+  return (
+    <ScrollView style={{ backgroundColor: theme.colors.background }} contentContainerStyle={styles.content}>
+      {children}
+    </ScrollView>
+  )
+}
+
+const styles = StyleSheet.create({
+  content: { padding: 16, gap: 16 },
+})

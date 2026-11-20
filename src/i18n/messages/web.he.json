@@ -1,0 +1,128 @@
+{
+  "app": {
+    "name": "Online Shop",
+    "pageTitle": "{title} | Online Shop",
+    "loadingPage": "טוען את הדף",
+    "skipToContent": "דילוג לתוכן הראשי",
+    "description": "מוצרים לכל יום, גאדג׳טים ומתנות במחירים הוגנים, עד הבית. אפשר לקנות בעברית, באנגלית או בספרדית."
+  },
+  "common": {
+    "retry": "נסו שוב",
+    "backToHome": "חזרה לדף הבית",
+    "cancel": "ביטול",
+    "delete": "מחיקה",
+    "edit": "עריכה",
+    "yes": "כן",
+    "no": "לא",
+    "loadError": "משהו השתבש בזמן הטעינה.",
+    "genericError": "משהו השתבש. נסו שוב.",
+    "unreachable": "אין חיבור לשרת. בדקו את החיבור ונסו שוב.",
+    "itemCount": {
+      "one": "פריט אחד",
+      "two": "שני פריטים",
+      "other": "{count} פריטים"
+    },
+    "startShopping": "להתחיל לקנות",
+    "continueShopping": "להמשיך בקניות",
+    "rated": "דירוג {rating} מתוך 5",
+    "outOfStock": "אזל מהמלאי",
+    "loadingItems": "טוען פריטים",
+    "language": "שפה"
+  },
+  "prefs": {
+    "button": "שפה וערכת נושא",
+    "language": "שפה",
+    "theme": "ערכת נושא",
+    "light": "בהירה",
+    "dark": "כהה",
+    "system": "לפי הדפדפן"
+  },
+  "blocked": {
+    "message": "החשבון הזה חסום.",
+    "reason": "סיבה: {reason}.",
+    "until": "החסימה תסתיים ב־{date}."
+  },
+  "apiErrors": {
+    "INVALID_ORDER": "בחרו אחת מההזמנות שלכם",
+    "THREAD_LOCKED": "השרשור הזה נעול",
+    "CANNOT_REPORT_OWN": "אי אפשר לדווח על הודעה שלך",
+    "ALREADY_REPORTED": "כבר דיווחת על ההודעה הזו",
+    "ACCOUNT_BLOCKED": "החשבון הזה חסום.",
+    "CANNOT_BLOCK_SELF": "אי אפשר לחסום את החשבון של עצמך",
+    "CANNOT_BLOCK_ADMIN": "יש לשנות את התפקיד של מנהל לפני חסימתו",
+    "WRONG_PASSWORD": "הסיסמה הנוכחית שגויה",
+    "SAME_PASSWORD": "בחרו סיסמה שונה מהנוכחית",
+    "PASSWORD_CHANGE_REQUIRED": "בחרו סיסמה חדשה כדי להמשיך",
+    "TWO_FACTOR_REQUIRED": "הזינו את הקוד מאפליקציית האימות",
+    "INVALID_TWO_FACTOR_CODE": "הקוד שגוי",
+    "TWO_FACTOR_SETUP_REQUIRED": "הפעילו כניסה דו־שלבית כדי להשתמש בדפי הצוות",
+    "TWO_FACTOR_REQUIRED_FOR_ROLE": "כניסה דו־שלבית היא חובה בתפקיד שלך",
+    "TWO_FACTOR_ON": "כניסה דו־שלבית כבר פעילה",
+    "TWO_FACTOR_OFF": "כניסה דו־שלבית כבויה",
+    "NO_SETUP": "התחילו את ההגדרה מחדש",
+    "CANNOT_RESET_OWN_2FA": "שנו את הכניסה הדו־שלבית שלכם בהגדרות",
+    "CANNOT_RESET_OWN_PASSWORD": "את הסיסמה שלך משנים בהגדרות",
+    "INVALID_CREDENTIALS": "האימייל או הסיסמה שגויים",
+    "EMAIL_TAKEN": "כבר קיים חשבון עם האימייל הזה",
+    "UNAUTHENTICATED": "יש להתחבר",
+    "FORBIDDEN": "אין לך הרשאה לגשת לכאן",
+    "NOT_FOUND": "לא נמצא",
+    "OUT_OF_STOCK": "לחלק מהפריטים אין מספיק מלאי",
+    "ITEM_UNAVAILABLE": "פריט בעגלה כבר לא זמין",
+    "CANNOT_CHANGE_OWN_ROLE": "אי אפשר לשנות את התפקיד של עצמך",
+    "INVALID_STATUS": "ההזמנה שונתה על ידי מישהו אחר, טענו מחדש ונסו שוב",
+    "VALIDATION_ERROR": "חלק מהפרטים אינם תקינים",
+    "TOO_MANY_REQUESTS": "יותר מדי ניסיונות. המתינו רגע ונסו שוב.",
+    "EMAIL_NOT_VERIFIED": "יש לאשר קודם את כתובת האימייל",
+    "INVALID_TOKEN": "הקישור לא תקין או שפג תוקפו",
+    "ALREADY_VERIFIED": "כתובת האימייל שלך כבר אושרה",
+    "TOO_SOON": "יש להמתין דקה לפני בקשת הודעה נוספת",
+    "PAYMENT_DECLINED": "התשלום נדחה",
+    "PAYMENT_EXPIRED": "הזמן לתשלום על ההזמנה הסתיים",
+    "NOT_PAYABLE": "ההזמנה הזו לא ממתינה לתשלום",
+    "CANNOT_CANCEL": "כבר לא ניתן לבטל את ההזמנה",
+    "ORDERS_IN_PROGRESS": "יש לך הזמנות שעוד לא נמסרו. המתינו להן או בטלו אותן קודם.",
+    "LAST_ADMIN": "את/ה המנהל/ת היחיד/ה. מנו מנהל נוסף לפני מחיקת החשבון.",
+    "NOT_A_BUYER": "רק לקוחות שקנו את הפריט יכולים לכתוב עליו ביקורת",
+    "ALREADY_REVIEWED": "כבר כתבת ביקורת על הפריט; אפשר לערוך אותה",
+    "WISHLIST_FULL": "רשימת המשאלות מלאה; יש להסיר ממנה פריטים קודם",
+    "LIST_NOT_FOUND": "הרשימה הזאת כבר לא משותפת",
+    "COUPON_EXISTS": "כבר קיים קופון עם הקוד הזה"
+  },
+  "nav": {
+    "forum": "פורום",
+    "guides": "מדריכים",
+    "home": "בית",
+    "shop": "חנות",
+    "info": "מידע",
+    "main": "ראשי",
+    "mobile": "תפריט נייד",
+    "footer": "כותרת תחתונה",
+    "openMenu": "פתיחת תפריט",
+    "cart": "עגלה",
+    "cartWithCount": {
+      "one": "עגלה, פריט אחד",
+      "two": "עגלה, שני פריטים",
+      "other": "עגלה, {count} פריטים"
+    }
+  },
+  "account": {
+    "support": "תמיכה",
+    "supportWithCount": {
+      "one": "תמיכה, {count} תשובה חדשה",
+      "other": "תמיכה, {count} תשובות חדשות"
+    },
+    "login": "התחברות",
+    "logout": "התנתקות",
+    "myOrders": "ההזמנות שלי",
+    "admin": "לוח ניהול",
+    "settings": "הגדרות",
+    "menuFor": "תפריט החשבון של {name}",
+    "wishlist": "רשימת משאלות",
+    "wishlistWithCount": {
+      "one": "רשימת משאלות, פריט אחד",
+      "two": "רשימת משאלות, שני פריטים",
+      "other": "רשימת משאלות, {count} פריטים"
+    }
+  }
+}
