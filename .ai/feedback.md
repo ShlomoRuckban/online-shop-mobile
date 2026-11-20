@@ -8,3 +8,8 @@
 - Expo Router needs the root layout to render a navigator on the first render. Keep the Stack mounted, hold the native splash screen, and apply saved preferences when they arrive.
 - Inside jest-expo the global `fetch` is Expo's runtime one; live tests use `tests/helpers/nodeFetch.ts`.
 - Bash heredocs in this environment can collapse `\\` in regex strings; write regex-heavy files with the Edit tool.
+
+## 2026-11-20, leaf 2.1
+
+- One unexplained `yarn verify` failure at the test step during a long gate run did not reproduce (3 runs under load, 3 plain). Screen tests now have a 20 s timeout and verify keeps full step logs in `.verify/`; if it happens again, read `.verify/test.log` before rerunning.
+- `gate-check` runs gates one at a time by default (`--jobs 1`); do not blame parallel gates for a failure.

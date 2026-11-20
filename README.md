@@ -23,7 +23,7 @@ Everything runs locally. The app makes no calls to outside services: no EAS clou
    - A phone on the same Wi-Fi: `http://<your PC's LAN address>:4000/api`, and set `HOST=0.0.0.0` in the server `.env` so the API listens on the network
 5. `yarn start`, then open the app:
    - on a phone: install **Expo Go** and scan the QR code
-   - in the browser: press `w`
+   - in the browser: press `w` (layout and texts only: the API allows no cross-origin requests, so the server status page shows the server as unreachable there)
    - on an Android emulator: press `a` (needs Android Studio)
 
 ## Scripts

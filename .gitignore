@@ -46,3 +46,6 @@ yarn-error.*
 
 # local API address (see .env.example)
 .env
+
+# yarn verify step logs
+.verify/
